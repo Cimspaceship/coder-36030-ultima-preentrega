@@ -1,4 +1,7 @@
 /*nucleo de productos en home*/
+
+$margin: 25px;
+
 .home-image {
     display:flex;
     flex-direction: column;
@@ -6,10 +9,10 @@
     align-items: center;
 
     div {
-        margin-top:  25px;
-        margin-bottom: 25px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-top: $margin;
+        margin-bottom: $margin;
+        margin-left: $margin/5;
+        margin-right: $margin/5;
     }
 
     h3 {
